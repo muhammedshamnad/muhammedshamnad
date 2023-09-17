@@ -8,6 +8,31 @@
     display: none;
 }
 
+@media all and (max-width: 600px)
+{
+    .whatWedoSubcontent {
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 2;
+    }
+
+    .ourSpecialitySubContent {
+            /* text-align: justify;
+            text-justify: inter-word; */
+    }
+}
+
+.welcomeSubContent {
+    line-height: 2;
+    font-weight: bold;
+}
+
+
+
+body {
+    font-family: 'Anek Malayalam';font-size: 22px;
+}
+
 .h2Second {
     color: white;
 }
@@ -162,7 +187,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    /* background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg); */
+    /* background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/Cover\ photo.jpg); */
     background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9));
     background-position: center center;
     background-repeat: no-repeat;
